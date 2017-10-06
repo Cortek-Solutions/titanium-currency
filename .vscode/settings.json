@@ -3,8 +3,8 @@
     "editor.formatOnType": true,
     "editor.formatOnSave": true,
     "files.exclude": {
-        "**/*.js": true,
-        "**/*.js.map": true,
-        "build/**/*": true
+        "**/*.js": false,
+        "**/*.js.map": false,
+        "build/**/*": false
     }
 }
