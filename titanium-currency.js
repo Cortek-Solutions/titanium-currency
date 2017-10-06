@@ -32,7 +32,7 @@ let TitaniumCurrency = class TitaniumCurrency extends Polymer.Element {
         if (this.thousandsSeparators) {
             formattedValue = this.addCommas(formattedValue);
         }
-        formattedValue = `\$${formattedValue}`;
+        formattedValue = `${formattedValue}`;
         if (floatValue < 0 && this.accountingFormat) {
             formattedValue = `(${formattedValue})`;
         }
