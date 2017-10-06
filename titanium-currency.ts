@@ -43,7 +43,7 @@ class TitaniumCurrency extends Polymer.Element {
             formattedValue = this.addCommas(formattedValue);
         }
 
-        formattedValue = `\$${formattedValue}`;
+        formattedValue = `${formattedValue}`;
 
         if (floatValue < 0 && this.accountingFormat) {
             formattedValue = `(${formattedValue})`;
